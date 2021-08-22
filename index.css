@@ -6,6 +6,7 @@
     --Very-pale-blue: hsl(225, 100%, 98%);
     --Desaturated-blue: hsl(224, 23%, 55%);
     --Dark-blue: hsl(223, 47%, 23%);
+    --Bright-purple: #766CF1;
     --font-sm: 12px;
     --font-lg: 14px;
     --font-xlg: 16px;
@@ -122,12 +123,21 @@
     border-radius: 10px;
     box-shadow: 0px 15px 10px 5px #e0e8ff;
 }
+.button:hover{
+    background: var(--Bright-purple);
+    cursor: pointer;
+}
 .button_transparent{
     font-size: 14px;
     font-weight: 700;
     text-align: center;
     margin-bottom: 30px;
     color: var(--Desaturated-blue);
+}
+.button_transparent:hover{
+    color: #000000;
+    cursor: pointer;
+    
 }
 */
 /* .bg img{  
