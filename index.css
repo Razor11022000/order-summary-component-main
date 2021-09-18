@@ -121,7 +121,7 @@
     padding: 10px 30px;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0px 15px 10px 5px #e0e8ff;
+    box-shadow: 0px 15px 10px 5px var(--Pale-blue);
 }
 .button:hover{
     background: var(--Bright-purple);
@@ -139,12 +139,3 @@
     cursor: pointer;
     
 }
-*/
-/* .bg img{  
-    width: 100%;
-}
-@media only screen and (max-width: 375px){
-    .bg img{
-        background-image: url(images/pattern-background-mobile.svg);
-    }
-} */
